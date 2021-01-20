@@ -1,0 +1,43 @@
+/* global styles */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey-1: #333333;
+  --grey-2: #4f4f4f;
+  --grey-3: #828282;
+  --grey-4: #bdbdbd;
+  --grey-5: #e0e0e0;
+  --grey-6: #f2f2f2;
+  --blue: #2d9cdb;
+  --green: #27ae60;
+  --pink: #eb5757;
+  --footer: #100e1d;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: var(--grey-1);
+}
+.logo {
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+/* typography */
+
+ul li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--grey-1);
+}
