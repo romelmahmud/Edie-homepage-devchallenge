@@ -36,6 +36,10 @@ body {
   font-family: "Heebo", sans-serif;
   font-weight: 800;
   font-size: 2.25rem;
+  cursor: pointer;
+}
+.burger-menu {
+  cursor: pointer;
 }
 
 ul li a {
@@ -332,4 +336,38 @@ button {
 }
 .profile-data {
   width: 75%;
+}
+/* footer section */
+
+footer {
+  background: var(--footer);
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+footer nav ul {
+  margin-bottom: 4em;
+}
+
+footer nav ul li {
+  list-style: none;
+  padding: 0.4em 0;
+}
+footer .logo {
+  color: var(--grey-6);
+  margin-bottom: 0.25em;
+}
+
+footer .social-icons {
+  display: flex;
+  margin-bottom: 4em;
+}
+footer .social-icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75em;
+}
+footer .name {
+  text-align: center;
+  color: #a9a9a9;
+  font-size: 0.875rem;
 }
