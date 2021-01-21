@@ -300,7 +300,7 @@ button {
   margin-bottom: 2.5em;
 }
 .design-card img {
-  border-radius: 0.75rem;
+  border-radius: 1.5rem;
   margin-bottom: 1em;
 }
 /* clients section */
@@ -419,14 +419,17 @@ footer .name {
     margin-bottom: 10em;
   }
 
-  .services .content-container {
+  .services .content-container,
+  .portfolio .content-container {
     width: 95%;
     max-width: 1200px;
     margin: auto;
   }
-  .service-title {
+  .service-title,
+  .portfolio-title {
     width: 35%;
   }
+
   .services-cards-container {
     margin: 3em 0 12em 0;
     display: flex;
@@ -434,5 +437,37 @@ footer .name {
   }
   .service-card {
     width: 30%;
+  }
+  .portfolio {
+    margin-bottom: 0;
+  }
+  .portfolio-title {
+    margin-bottom: 7em;
+  }
+  .design-cards-flex-conatiner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .design-card {
+    width: 48.5%;
+  }
+  .margin-top {
+    margin-top: -15em;
+  }
+  .bottom-margin {
+    margin-bottom: 15em;
+  }
+  .bottom-margin-2 {
+    margin-bottom: 10em;
+  }
+
+  .design-cards-containe {
+    position: relative;
+  }
+  .see-more {
+    position: absolute;
+    right: 200px;
+    top: 3850px;
   }
 }
