@@ -22,7 +22,9 @@
             <li><a href="">Contact</a></li>
           </ul>
         </nav>
-        <div class="burger-menue"></div>
+        <div class="burger-menue">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
       </header>
     </div>
     <!-- !header section end -->
@@ -34,7 +36,7 @@
           <h2 class="hero-title">We create beautiful and fast web services</h2>
         </div>
         <div class="body-container">
-          <img src="./img/heroImage.jpg" alt="hero image" />
+          <img src="./img/heroImage.jpg" alt="hero image" class="hero-image" />
         </div>
         <div class="content-container">
           <h2 class="hero-title">Story, emotion and purpose</h2>
@@ -45,8 +47,10 @@
           </p>
           <form action="">
             <label for="email">Want us to contact you?</label>
-            <input type="email" name="email" id="email" />
-            <button type="submit">Join</button>
+            <div class="input-container">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <button type="submit">Join</button>
+            </div>
           </form>
         </div>
       </section>
