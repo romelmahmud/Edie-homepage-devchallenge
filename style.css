@@ -19,6 +19,13 @@
   --footer: #100e1d;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
+/* typography */
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -29,12 +36,6 @@ body {
   font-weight: 800;
   font-size: 2.25rem;
 }
-img {
-  width: 100%;
-  display: block;
-}
-
-/* typography */
 
 ul li a {
   font-size: 1.5rem;
@@ -46,9 +47,15 @@ ul li a {
   font-size: 1.125rem;
 }
 
-.hero-title {
+.hero-title,
+.service-title,
+.portfolio-title,
+.clients-title,
+.testimonial,
+.profile-name {
   font-size: 1.5rem;
   line-height: 1.5;
+  font-weight: 400;
 }
 .hero-body {
   font-weight: 400;
@@ -63,4 +70,71 @@ label {
 button {
   font-size: 0.875rem;
   color: white;
+}
+
+.service-card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.service-card-body,
+.clients-body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--grey-2);
+  line-height: 1.5;
+}
+/*  button */
+.card-button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--grey-3);
+  text-decoration: none;
+  padding: 0.562rem 0.75rem;
+  background-color: var(--grey-5);
+  border-radius: 0.75rem;
+}
+
+.card-button:hover,
+.card-button:focus {
+  color: white;
+  background-color: var(--blue);
+}
+
+.design-info {
+  color: var(--grey-3);
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+.design-title,
+.see-more,
+.clients-subtitle,
+.profile-info {
+  font-size: 1.125rem;
+}
+
+.see-more {
+  text-decoration: none;
+  color: var(--blue);
+}
+i {
+  margin-left: 0.75em;
+}
+
+.clients-subtitle {
+  color: var(--pink);
+}
+.testimonial,
+.profile-name {
+  font-weight: 500;
+}
+
+.profile-info {
+  color: var(--grey-3);
+}
+
+footer nav ul li a {
+  font-size: 1.125rem;
+  color: var(--grey-6);
 }
