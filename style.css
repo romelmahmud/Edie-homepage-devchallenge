@@ -227,7 +227,7 @@ button {
 
 /* service section */
 .services-cards-container {
-  margin: 6em 0;
+  margin: 6em 0 12em 0;
 }
 
 .service-card {
@@ -263,4 +263,19 @@ button {
 }
 .service-card-body {
   margin-bottom: 1.875rem;
+}
+
+/* protfolio section  */
+.portfolio {
+  margin-bottom: 6em;
+}
+.portfolio-title {
+  margin-bottom: 2.5em;
+}
+.design-card {
+  margin-bottom: 2.5em;
+}
+.design-card img {
+  border-radius: 0.75rem;
+  margin-bottom: 1em;
 }
