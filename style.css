@@ -55,8 +55,7 @@ ul li a {
 .hero-title,
 .service-title,
 .portfolio-title,
-.clients-title,
-.profile-name {
+.clients-title {
   font-size: 2.25rem;
   line-height: 1.5;
   font-weight: 500;
@@ -134,6 +133,9 @@ i {
   color: var(--pink);
 
   margin-bottom: 0.5em;
+}
+.profile-name {
+  font-size: 1.5rem;
 }
 
 .testimonial,
@@ -467,7 +469,31 @@ footer .name {
   }
   .see-more {
     position: absolute;
-    right: 200px;
+    right: 10%;
     top: 3850px;
+  }
+  .clients-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .clients-content {
+    width: 40%;
+  }
+  .clients-image-container {
+    width: 55%;
+  }
+  .testimonial {
+    width: 75%;
+    font-size: 2.25rem;
+  }
+  .profile-card {
+    justify-content: flex-start;
+  }
+  .profile-card img {
+    width: 10%;
+  }
+  .profile-data {
+    margin-left: 1.75em;
   }
 }
